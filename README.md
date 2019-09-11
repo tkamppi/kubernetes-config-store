@@ -6,9 +6,9 @@ This is a low cost option, as Google Cloud Platform does not charge for the Kube
 
 A Cloud function is deployed as a way to fetch the configuration from anywhere using a JSON API. Cloud Function authentication is provided through IAM policies.
 
-![Architecture](images/overview.png)  
+<img src="images/overview.svg" width="500">
 
 ## Deployment
 
-Use:
+Use:  
 [![Open this project in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/tkamppi/kubernetes-config-store.git&page=editor&tutorial=tutorial/tutorial.md)
