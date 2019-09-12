@@ -31,3 +31,11 @@ Now let's deploy the regional GKE cluster without nodes, and the Cloud Function 
 ```bash
 bash ~/kubernetes-config-store/scripts/setup.sh
 ```
+
+## Access the function
+
+You could grant yourself permission to access to invoke the Cloud function by running:
+
+```bash
+bash ~/kubernetes-config-store/scripts/setup.sh
+```
