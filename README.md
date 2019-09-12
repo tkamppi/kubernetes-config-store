@@ -12,7 +12,7 @@ kubectl can be used normally to configure configmaps.
 
 ## Deployment
 
-Use:  
+Use the automated deployment by following the tutorial:  
 [![Open this project in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/tkamppi/kubernetes-config-store.git&page=editor&tutorial=tutorial/tutorial.md)
 
 ## Auhenticating
