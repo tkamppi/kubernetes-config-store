@@ -1,4 +1,4 @@
-# Kubernetes as a configuration management system
+# Kubernetes backed configuration store
 
 ## Overview
 Uses GKE masters as a place to store your configuration in configmaps.
