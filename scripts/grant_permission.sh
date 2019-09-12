@@ -13,6 +13,7 @@ ACTIVE_ACCOUNT=$(gcloud auth list \
   --filter="status=ACTIVE")
 
 gcloud beta functions add-iam-policy-binding configmap_fetcher \
+     --project $PROJECT_ID \
      --region $CLOUD_FUNCTION_REGION \
      --member user:$ACTIVE_ACCOUNT \
      --role roles/cloudfunctions.invoker
