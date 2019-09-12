@@ -37,5 +37,5 @@ bash ~/kubernetes-config-store/scripts/setup.sh
 You could grant yourself permission to access to invoke the Cloud function by running:
 
 ```bash
-bash ~/kubernetes-config-store/scripts/setup.sh
+bash ~/kubernetes-config-store/scripts/grant_permission.sh
 ```
