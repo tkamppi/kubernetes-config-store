@@ -59,6 +59,7 @@ ALL_USERS_HAS_ACCESS=$(gcloud beta functions get-iam-policy configmap_fetcher \
 if [ -n "$ALL_USERS_HAS_ACCESS" ]; then
   bold "Disabling public access..."
   gcloud beta functions remove-iam-policy-binding configmap_fetcher \
+    --project $PROJECT_ID \
     --region $CLOUD_FUNCTION_REGION \
     --member allUsers \
     --role roles/cloudfunctions.invoker
